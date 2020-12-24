@@ -29,4 +29,4 @@ class SegmentTree:
         return value
                
     def xorQueries(self, start, end):        
-        return xor(start, end) #end+1 if the input is inclusive
+        return self.xor(start, end) #end+1 if the input is inclusive
